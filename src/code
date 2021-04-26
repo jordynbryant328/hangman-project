@@ -1,1 +1,18 @@
-
+class main(){
+  method(addLeg) {}
+  method(addBody) {}
+  method(addArm) {}
+  method(addHead) {}
+}
+class Arm() {
+  line = x,y;
+}
+class Leg() {
+  line = x,y;
+}
+class Body() {
+  line = x,y;
+}
+class Head() {
+  circle(x,y,width,height);
+}
