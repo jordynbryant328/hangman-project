@@ -16,3 +16,12 @@ class Body() {
 class Head() {
   circle(x,y,width,height);
 }
+class Letters() {
+ println("" + Array[1] + "");
+}
+class Word() {
+  *read from file*
+  if(userGuess != Array[1]) {
+  addLeg
+  } else if (userGuess = Array[1]) {
+  if(userGuess != Array[2]) {}
