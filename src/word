@@ -1,0 +1,6 @@
+class Word() {
+  *read from file*
+  if(userGuess != Array[1]) {
+  addLeg
+  } else if (userGuess = Array[1]) {
+  if(userGuess != Array[2]) {}
