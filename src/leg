@@ -6,6 +6,6 @@ class Leg() {
   int y = 0;
   
   method(addLeg) {
-  draw leg;
+  draw line;
   }
 }
