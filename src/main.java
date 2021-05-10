@@ -1,3 +1,5 @@
+import java.awt.*;
+import javax.swing.*;
 import java.awt.geom.Line2D;
 import java.util.Scanner;
 import java.util.Arrays;
@@ -19,9 +21,28 @@ class Main {
      lives--;
      System.out.println("Try again:");
    }
+   if (guessChar = key[2]) {
+     System.out.println("" + key[1] + "" + key[2]);
+   } else if (guessChar != key[2]) {
+     lives--;
+     System.out.println("Try again:");
+   }
+   
+    if (guessChar = key[3]) {
+     System.out.println("" + key[1] + "" + key[2] + "" + key[3]);
+   } else if (guessChar != key[3]) {
+     lives--;
+     System.out.println("Try again:");
+   }
+   if (guessChar = key[4]) {
+     System.out.println("" + key[1] + "" + key[2] + "" + key[3] + "" + key[4]);
+   } else if (guessChar != key[4]) {
+     lives--;
+     System.out.println("Try again:");
+   }
     if (lives = 0) {
       System.out.println("You are out of lives - Game Over.");
     }
   }
-  }
+}
 }
