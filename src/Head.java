@@ -1,13 +1,9 @@
-class head() {
-  int x,y, width, height;
-  
-  ellipse(x,y, width, height);
-  int x = 0;
-  int y = 0;
-  int width = 0;
-  int height = 0;
-  
-  method(addHead) {
-  draw ellipse;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.geom.Ellipse2D;
+
+class Head{
+  void AddHead(Graphics g) {
+    g.drawOval(5,28,6,6);
   }
 }
